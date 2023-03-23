@@ -13,4 +13,10 @@ public class KafkaTopicConfig {
         return TopicBuilder.name("fguiraldelli")
                 .build();
     }
+
+    @Bean
+    public NewTopic fguiraldelliJsonTopic() {
+        return TopicBuilder.name("fguiraldelli_json")
+                .build();
+    }
 }
